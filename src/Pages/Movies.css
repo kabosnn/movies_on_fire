@@ -1,0 +1,87 @@
+/* General body styling scoped to .movies-page */
+.movies-page {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main container styling scoped to .movies-page */
+.movies-page main {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header styling scoped to .movies-page */
+.movies-page header h1 {
+  font-size: 2.5rem;
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+/* Section styling scoped to .movies-page */
+.movies-page section {
+  margin-top: 20px;
+}
+
+/* Article styling scoped to .movies-page */
+.movies-page article {
+  background-color: #3c3c3c;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Article header styling scoped to .movies-page */
+.movies-page article header h2 {
+  font-size: 1.8rem;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling scoped to .movies-page */
+.movies-page article p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Table styling scoped to .movies-page */
+.movies-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.movies-page table th,
+.movies-page table td {
+  border: 1px solid #4c4c4c;
+  padding: 8px;
+  text-align: left;
+}
+
+.movies-page table th {
+  background-color: #4c4c4c;
+  color: #f4f4f4;
+  font-weight: bold;
+}
+
+.movies-page table td {
+  background-color: #2c2c2c;
+}
+
+.movies-page table tbody tr:hover {
+  background-color: #444444;
+}
